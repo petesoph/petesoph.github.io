@@ -6,17 +6,17 @@ description:"Mathematics and coding!"
 locale:en
 url:petesoph.github.io
 feed:
-  path: atom.xml
+  path:atom.xml
 
 # Jekyll configuration
 
 sass:
-  sass_dir: _sass
-  style: compressed
-permalink: /:categories/:title/
+  sass_dir:_sass
+  style:compressed
+permalink:/:categories/:title/
 kramdown:
-  toc_levels: 1..2
-highlighter: rouge
+  toc_levels:1..2
+highlighter:rouge
 gems:
   - jekyll-sitemap
   - jekyll-gist
@@ -37,10 +37,10 @@ owner:
 
 
 include:
-  - .htaccess
+  -.htaccess
 exclude:
-  - "*.less"
-  - "*.sublime-project"
+  -"*.less"
+  -"*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
